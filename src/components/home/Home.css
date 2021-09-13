@@ -1,0 +1,38 @@
+/* div {
+    background-color: darkgray;
+    border: dashed;
+    border-width: 1px;
+} */
+
+.content {
+    margin-top: 10px;
+    height: 100%;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.left-content {
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid gray;
+}
+
+.right-content {
+    margin-left: 30%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+}
+
+.my-image {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+}
