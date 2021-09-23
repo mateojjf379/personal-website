@@ -20,8 +20,7 @@ function Home(){
                 <SocialIcon url="https://twitter.com/mateojfabian"/>
             </div>
             <div className="right-content">
-                <p>This website was created to publish some of my work and experience as 
-                    a computer engineer, professional videographer, and father. 
+                <p>This website has been made to keep a record of my professional accomplishments as well as share some projects that I am currently working on. I consider myself a lifelong learner, and I am constantly trying to acquire more knowledge. As one of my professors once said, “The most marvelous invention of humanity is the computer, there have been multiple generations of scientists dreaming and working so we can have amazing technology today. This could not have been done in one lifetime, but many. And it was the constant collaboration between multiple generations of engineers that made possible such amazing technology. There is so much to be done still. Do you want to collaborate or just watch?” I know undoubtedly that I want to collaborate. Though early in my career, I hope that one day, through my constant learning and collaborative engineering efforts, I can create something that impacts the world for the better. 
                 </p>
             </div>
         </div>

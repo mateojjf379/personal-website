@@ -9,7 +9,7 @@
     height: 80%;
     padding: 0px;
     float: left;
-    display:flex;
+    display: flex;
     flex-direction:row;
 }
 
@@ -18,11 +18,11 @@
     text-align: center;
     font-family: "Courier New";
     float: left;
-    order:1;
-    flex-grow:1;
+    order: 1;
+    flex-grow: 1;
 }
 
 .box-buttons {
     height: 100%;
-    width: 100%;
+    width: 100%;   
 }

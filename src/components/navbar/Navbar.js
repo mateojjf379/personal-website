@@ -13,8 +13,8 @@ function Navbar(props) {
                 <li className="box"><button className="box-buttons" onClick={() => buttonHandler("home")}>Home</button></li>
                 <li className="box"><button className="box-buttons" onClick={() => buttonHandler("bio")}>Bio</button></li>
                 <li className="box"><button className="box-buttons" onClick={() => buttonHandler("education")}>Education</button></li>
-                <li className="box"><button className="box-buttons" onClick={() => buttonHandler("projects")}>Projects</button></li>
                 <li className="box"><button className="box-buttons" onClick={() => buttonHandler("professional")}>Professional</button></li>
+                <li className="box"><button className="box-buttons" onClick={() => buttonHandler("projects")}>Projects</button></li>
             </ul>    
         </div>
     )

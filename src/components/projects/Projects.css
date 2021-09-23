@@ -1,0 +1,31 @@
+.proj-main-title{
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.project-button{
+    padding: 20%;
+    color: #000000;
+    margin-bottom: 40px;
+    background-color: transparent;
+    
+}
+
+.project-col-container {
+
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+
+    -webkit-column-fill: balance;
+    -moz-column-fill: balance;
+    column-fill: balance;
+
+    padding-bottom: 30px;
+}
