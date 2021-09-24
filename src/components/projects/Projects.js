@@ -6,6 +6,7 @@ import Drone from './Drone';
 import Gps from './Gps';
 import Iot from './Iot';
 import Stm from './Stm';
+import ContentForm from './ContentForm';
 
 function Projects(){
 
@@ -26,6 +27,7 @@ function Projects(){
             {projectsState==="gps" && <Gps onFunction={projState}></Gps>}
             {projectsState==="iot" && <Iot onFunction={projState}></Iot>}
             {projectsState==="stm32" && <Stm onFunction={projState}></Stm>}
+            {projectsState==="content-form" && <ContentForm></ContentForm>}
         </div>
     )
 }

@@ -9,8 +9,29 @@
     padding: 20%;
     color: #000000;
     margin-bottom: 40px;
-    background-color: transparent;
-    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-button::before {
+    content: "";
+    background-image: var(--image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+}
+
+.back-button {
+    padding: 5px;
+    background-color: #F0F8FF;
+    border-radius: 12px;
 }
 
 .project-col-container {

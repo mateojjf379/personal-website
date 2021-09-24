@@ -9,7 +9,7 @@ function Drone(props){
 
     return(
         <div>
-            <button onClick={() => buttonHandler()}>&#60;&#60; Back</button>
+            <button className="back-button" onClick={() => buttonHandler()}>&#60;&#60; Back</button>
             <div>
                 <h1>Drone</h1>
             </div>

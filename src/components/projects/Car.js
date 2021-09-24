@@ -7,15 +7,22 @@ function Car(props){
         props.onFunction("projects");
     }
 
+    function moreContent() {
+        props.onFunction("content-form");
+    }
+
     return(
         <div>
-            <button onClick={() => buttonHandler()}>&#60;&#60; Back</button>
+            <button className="back-button" onClick={() => buttonHandler()}>&#60;&#60; Back</button>
             <div>
                 <h1>Porsche 944 1984</h1>
             </div>
             <div>
-                <p>car project</p>
-            </div>  
+                <p>Under development</p>
+            </div>
+            <div>
+                <button onClick={() => moreContent()}>Add Content</button>
+            </div>
         </div>
     )
 }

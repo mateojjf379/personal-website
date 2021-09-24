@@ -7,16 +7,12 @@ function ProjectButton(props){
         props.onFunction(newState);
     }
 
-    const style = {
-        backgroundImage: 'url(' + props.image + ')',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeate: 'no-repeat'
-    }
+    let cssProperties = {}
+    cssProperties['--image'] = 'url(' + props.image + ')';
     
     return(
         <div>
-            <button className="project-button" style={style} onClick={() => buttonHandler(props.state)}>{props.title}</button>
+            <button className="project-button" style={cssProperties} onClick={() => buttonHandler(props.state)}>{props.title}</button>
         </div>
     )
 }

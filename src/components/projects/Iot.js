@@ -9,7 +9,7 @@ function Iot(props){
 
     return(
         <div>
-            <button onClick={() => buttonHandler()}>&#60;&#60; Back</button>
+            <button className="back-button" onClick={() => buttonHandler()}>&#60;&#60; Back</button>
             <div>
                 <h1>IOT</h1>
             </div>
