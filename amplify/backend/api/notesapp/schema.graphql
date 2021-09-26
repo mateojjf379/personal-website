@@ -1,0 +1,16 @@
+type Note @model {
+  id: ID!
+  name: String!
+  description: String
+  type: Type!
+  image: String
+}
+
+enum Type {
+  CAR
+  DRONE
+  GPS
+  IOT
+  MICRO
+  OTHER
+}

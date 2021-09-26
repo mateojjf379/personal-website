@@ -18,7 +18,7 @@ function ButtonsBody(props){
     return(
         <div className="project-col-container">
             <ProjectButton image={porsche} onFunction={buttonHandler} title="Porsche 944" state='car'></ProjectButton>
-            <ProjectButton image={stm} onFunction={buttonHandler} title="STM32" state='stm32'></ProjectButton>
+            <ProjectButton image={stm} onFunction={buttonHandler} title="Micro" state='micro'></ProjectButton>
             <ProjectButton image={drone} onFunction={buttonHandler} title="Drone" state='drone'></ProjectButton>
             <ProjectButton image={iot} onFunction={buttonHandler} title="IOT" state='iot'></ProjectButton>
             <ProjectButton image={gps} onFunction={buttonHandler} title="GPS" state='gps'></ProjectButton>

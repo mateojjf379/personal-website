@@ -31,24 +31,24 @@ function Edu(){
                 <h4>Research Opportunities</h4>
                 <ul>
                     <li>
-                        Fight Gun Violence, by Dr. Elliot Segal. I worked with Dr. Segal for one year. 
-                        I was in charge of designing, building, and managing a web application and 
-                        a database to collect useful information about gun violence and people who are
-                        willing to contribute to the study. The application was taken down one year ago (2020)
-                        after fulfilling its purpose. The application and database were powered by AWS.
+                    <b>Fight Gun Violence, by Dr. Elliot Segal.</b><br></br>
+                    The purpose of this research was to analyze the power that an organization, such as the NRA, has in politics. Using this data, the researchers started an initiative to form a nationwide organization for people who criticize the current gun problem in the United States. I worked with Dr. Segal for one year and I was in charge of designing, building, and managing a web application and database to collect useful information about gun violence and people willing to contribute to the study. The application was removed from the internet  one year ago (2020) after fulfilling its purpose. The application and database were powered by AWS.
                     </li>
                     <li>
-                        Game Theory Applied to Construction Bids, by Dr. Allison Reilly.
-                        I helped Dr. Reilly building python applications to do Bayesian analysis
-                        concerning this research. The research was inconclusive when I finished.
+                    <b>Game Theory Applied to Construction Bids, by Dr. Allison Reilly.</b><br></br>
+                    The primary goal of this research was to apply game theory principles when bidding for construction jobs. I helped Dr. Reilly build python applications to do Bayesian analysis concerning this research. The research was inconclusive when I changed my major from Civil Engineering to Computer Engineering.
+
                     </li>
                 </ul>
                 <h4>Teaching Opportunities</h4>
-                <p>Teaching Fellow for Digital Logic Desing class: I was in charge
-                    of teaching material from the class one hour a week, and holding 
-                    office hours to solve students questions and help them understand 
-                    the material. 
-                </p>
+                <ul>
+                    <li>
+                    <b>Teaching Fellow for Digital Logic Design - ENEE244:</b> <br></br> This class was taught by Dr. Joseph JaJa. I was in charge of teaching material from the class for one hour each week and holding office hours to solve students' questions to help them understand the material. Also I held study sessions before the tests to summarize all the covered material.
+                    </li>
+                    <li>
+                    <b>Teaching Assistant for Introduction to Engineering - ENES100:</b><br></br> This class was taught to high school students by Dr. Peter Chang during the summer term. I was in charge of teaching part of the class and helping the students build, program and test an autonomous robot to simulate rescue missions. There were four teaching assistants, and we were in charge of demoing different microcontrollers, sensors, programming techniques, and debugging techniques. Each teaching assistant was in charge of 15 students for 4 weeks. 
+                    </li>
+                </ul>
             </div>
             <div className="edu-normal-container">
                 <h2>Certifications</h2>
