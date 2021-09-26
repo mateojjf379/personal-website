@@ -53,8 +53,8 @@
     "serviceName": "Cognito",
     "dependsOn": [],
     "thirdPartyAuth": false,
-    "userPoolGroups": true,
-    "adminQueries": true,
+    "userPoolGroups": false,
+    "adminQueries": false,
     "triggers": "{}",
     "hostedUI": false,
     "parentStack": {
