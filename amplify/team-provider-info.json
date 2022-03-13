@@ -1,19 +1,26 @@
 {
-  "dev": {
+  "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-personalwebsite-dev-215809-authRole",
-      "UnauthRoleArn": "arn:aws:iam::309723615446:role/amplify-personalwebsite-dev-215809-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::309723615446:role/amplify-personalwebsite-dev-215809-authRole",
+      "AuthRoleName": "amplify-amplify01085131ae274-staging-141248-authRole",
+      "UnauthRoleArn": "arn:aws:iam::309723615446:role/amplify-amplify01085131ae274-staging-141248-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::309723615446:role/amplify-amplify01085131ae274-staging-141248-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-personalwebsite-dev-215809-deployment",
-      "UnauthRoleName": "amplify-personalwebsite-dev-215809-unauthRole",
-      "StackName": "amplify-personalwebsite-dev-215809",
-      "StackId": "arn:aws:cloudformation:us-east-1:309723615446:stack/amplify-personalwebsite-dev-215809/dffc1290-1cda-11ec-958d-12796b1813d3",
-      "AmplifyAppId": "d2s48vtvj05fq1"
+      "DeploymentBucketName": "amplify-amplify01085131ae274-staging-141248-deployment",
+      "UnauthRoleName": "amplify-amplify01085131ae274-staging-141248-unauthRole",
+      "StackName": "amplify-amplify01085131ae274-staging-141248",
+      "StackId": "arn:aws:cloudformation:us-east-1:309723615446:stack/amplify-amplify01085131ae274-staging-141248/a9652810-a2d7-11ec-98af-12e82c1841a1",
+      "AmplifyAppId": "d2s48vtvj05fq1",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplify01085131ae274-staging-141248-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
-        "personalwebsitec55a07b0": {}
+        "personalWebsiteOryx": {}
+      },
+      "function": {
+        "personalWebsiteOryxCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-amplify01085131ae274-staging-141248-deployment",
+          "s3Key": "amplify-builds/personalWebsiteOryxCreateAuthChallenge-7a783541554e75796751-build.zip"
+        }
       }
     }
   }

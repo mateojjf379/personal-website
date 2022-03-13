@@ -1,0 +1,16 @@
+{
+  "resourceName": "oryx",
+  "policyUUID": "084c4195",
+  "bucketName": "personalwebsitemateofabianoryx",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "DELETE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

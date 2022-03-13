@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "personalwebsite",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/mateojarafabian/Documents/repos/personal-website/amplify/backend/api/personalwebsite/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AWS_IAM"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 100,
+        "apiKeyExpirationDate": "2022-06-21T18:51:53.852Z",
+        "keyDescription": "firstKey"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
